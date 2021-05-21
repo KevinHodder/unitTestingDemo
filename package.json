@@ -1,19 +1,22 @@
 {
   "name": "techenfolddemo",
   "version": "1.0.0",
-  "description": "",
+  "description": "A 'what not to do' unit test demo. ",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Kevin Hodder",
+  "license": "MIT",
   "dependencies": {
     "jest": "^26.6.3",
     "standard": "^16.0.3"
   },
   "standard": {
-    "env": [ "node", "jest" ]
+    "env": [
+      "node",
+      "jest"
+    ]
   }
 }
